@@ -3,6 +3,12 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+/* Utilities */
+.display-none {
+  display: none;
+}
+
+
 .menu {
   line-height: 80px;
 }
@@ -20,4 +26,47 @@
 .list a {
   text-decoration: none;
   color: black;
+}
+
+/* Jumbotron */
+.jumbotron {
+height: 550px;
+background-image: url('hero-bg.jpg');
+background-size: cover;
+position: relative;
+}
+
+.text-jumbotron {
+position: absolute;
+text-align: center;
+color: #fff;
+top: 50%;
+transform: translateY(-60%);
+}
+
+.jumbotron h1,
+.jumbotron h4 {
+  margin-bottom: 20px;
+}
+
+/* Model */
+.model {
+  margin-top: 20px;
+  background: #fafafa;
+  text-align: center;
+  line-height: 45px;
+}
+
+.model-bike {
+  padding: 30px;
+}
+
+.model-bike img {
+  width: 300px;
+  height: 450px;
+}
+
+.model-bike a {
+  display: block;
+  text-decoration: none;
 }

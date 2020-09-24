@@ -141,3 +141,29 @@ transform: translateY(-60%);
   font-size: 15px;
   margin-top: 10px;
 }
+
+/* app and find */
+.app-left,
+.find-right {
+  margin-top: 20px;
+}
+
+.app-box,
+.find-box {
+  height: 400px;
+  text-align: center;
+  color: #fff;
+}
+
+.app-box {
+  position: relative;
+  background: #344352;
+}
+
+.app-box img {
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+  width: 450px;
+  height: 250px;
+}

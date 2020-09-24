@@ -8,7 +8,6 @@
   display: none;
 }
 
-
 .menu {
   line-height: 80px;
 }
@@ -51,7 +50,8 @@ transform: translateY(-60%);
 
 /* Model */
 .model {
-  margin-top: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   background: #fafafa;
   text-align: center;
   line-height: 45px;
@@ -69,4 +69,48 @@ transform: translateY(-60%);
 .model-bike a {
   display: block;
   text-decoration: none;
+}
+
+/* Banner */
+.banner {
+  height: 400px;
+  margin-bottom: 200px;
+  background-image: url('img/helbiz-banner.jpg');
+  background-size: cover;
+  background-position: left center;
+}
+
+.banner .col-left,
+.banner .col-right {
+  margin-top: 450px;
+}
+
+.col-left {
+  text-align: right;
+}
+
+.col-left .text {
+  display: inline-block;
+  text-align: left;
+  font-size: 25px;
+}
+
+.col-right .text {
+  padding-top: 10px;
+}
+
+@media screen and (min-width: 992px) {
+  .display-none {
+    display: block;
+  }
+}
+
+.col-center {
+  text-align: center;
+}
+
+.col-center img {
+  max-height: 600px;
+  max-width: 100%;
+  margin-top: 80px;
 }

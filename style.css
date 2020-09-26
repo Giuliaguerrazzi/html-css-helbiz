@@ -226,6 +226,7 @@ transform: translateY(-60%);
 .footer {
   background: #000000;
   color: #fff;
+  height: 500px;
 }
 
 .info-footer {
@@ -242,15 +243,23 @@ transform: translateY(-60%);
   color: lightgrey;
 }
 
-/* .info-footer::after {
+.info-footer::after {
   content: '';
- display: block;
+ display: inline-block;
  width: 1100px;
  height: 1px;
  background: lightgrey;
- margin: 350px 15px;
-}*/
+}
+
+.icon-footer {
+  margin: 30px 0;
+}
 
 .icon-footer i{
   color: #fff;
+}
+
+.icon-footer .icon i{
+  padding-right: 15px;
+ font-size: 25px;
 }
